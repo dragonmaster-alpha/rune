@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- GTAG -->
+    <script>
+      ;(function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', '%REACT_APP_GTAG%')
+    </script>
+    <!-- Links -->
+    <link rel="preconnect" href="%REACT_APP_NODE_1%" />
+    <link rel="preconnect" href="%REACT_APP_NODE_2%" />
+    <link rel="preconnect" href="%REACT_APP_NODE_3%" />
+    <link rel="preconnect" href="%REACT_APP_NODE_4%" />
+    <link rel="preconnect" href="%REACT_APP_NODE_5%" />
+    <link rel="preconnect" href="%REACT_APP_NODE_6%" />
+    <link rel="preconnect" href="%REACT_APP_NODE_7%" />
+    <link rel="preload" href="%PUBLIC_URL%/fonts/ExocetD.woff" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="%PUBLIC_URL%/fonts/ExocetReaperMedium.woff" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="%PUBLIC_URL%/images/background.png" as="image">
+    <link rel="preload" href="%PUBLIC_URL%/images/window-border-2.png" as="image">
+    <link rel="preload" href="%PUBLIC_URL%/images/frame.png" as="image">
+    <link rel="preload" href="%PUBLIC_URL%/images/special-button.png" as="image">
+    <link rel="preload" href="%PUBLIC_URL%/images/cube-bg.png" as="image">
+    <link rel="preload" href="%PUBLIC_URL%/images/nav-bg.png" as="image">
+    <link rel="preload" href="%PUBLIC_URL%/images/cursor2.png" as="image">
+    <link rel="preload" href="%PUBLIC_URL%/images/cursor3.png" as="image">
+    <link rel="preload" href="%PUBLIC_URL%/images/rune-bg.png" as="image">
+    <link rel="preload" href="%PUBLIC_URL%/images/blackhole-7.png" as="image">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/images/rune-200x200.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Meta -->
+    <title>Rune</title>
+    <meta
+      name="description"
+      content="Rune is aiming to be a leading NFT platform in blockchain gaming. Rune launches a new Rune yield farm every week that can be combined into NFTs called Rune Words. Characters and Guilds on the platform will gain certain farm bonuses or NFT rewards depending on their attributes. We are a fair launch project with no investors, no presale and no premine."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="twitter:image" content="https://rune.farm/images/hero.png" />
+    <meta
+      name="twitter:description"
+      content="Rune is aiming to be a leading NFT platform in blockchain gaming. Rune launches a new Rune yield farm every week that can be combined into NFTs called Rune Words. Characters and Guilds on the platform will gain certain farm bonuses or NFT rewards depending on their attributes."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Rune.Farm - An NFT hyperfarm changing DeFi" />
+
+    <style>
+      body {
+        transition: background-image 1s ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- GTAG (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=%REACT_APP_GTAG%"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
