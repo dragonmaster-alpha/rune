@@ -20,6 +20,7 @@ import 'styles/index.css'
 // Route-based code splitting
 // Only pool is included in the main bundle because of it's the most visited page
 import Home from 'views/Home'
+import Guilds from 'views/Guilds'
 import NotFound from 'views/NotFound'
 import useSettings from 'hooks/useSettings'
 import i18n, { onRouteChange, whitelist } from './i18n'
@@ -156,6 +157,9 @@ const App: React.FC = () => {
                 <Switch>
                   <Route path={baseRouteUrl + '/'} exact>
                     <Home />
+                  </Route>
+                  <Route path={baseRouteUrl + '/guilds'} exact>
+                    <Guilds />
                   </Route>
                   {/* 404 */}
                   <Route component={NotFound} />
